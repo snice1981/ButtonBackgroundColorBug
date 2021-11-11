@@ -46,9 +46,13 @@
                         BackgroundColor="{StaticResource Primary}"
                         TextColor="White" />
 
-                <Button Text="Test Button" Command="{Binding ShareCommand}" BackgroundColor="Red"/>
+                <Button Text="Button 1" Command="{Binding Button1Command}" BackgroundColor="Red"/>
 
-                <Button Text="Test Button 2" Command="{Binding ShareCommand2}" BackgroundColor="Red"/>
+                <Button Text="Button 2" Command="{Binding Button2Command}" BackgroundColor="Red"/>
+
+                <Button Text="Button 3" Command="{Binding Button3Command}" BackgroundColor="Red"/>
+                
+                <Button Text="Toggle Button 3" Command="{Binding ToggleEnableCommand}" BackgroundColor="Green"/>
             </StackLayout>
         </ScrollView>
     </Grid>
